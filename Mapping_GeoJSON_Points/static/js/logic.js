@@ -33,7 +33,6 @@ let sanFranAirport =
     //.bindPopup("<h2>" + feature.properties.name + "</h2> <hr> <h3>" + feature.properties.city + "," + feature.properties.country + "</h3>");
   //}
 //}).addTo(map);
-
 // Grabbing our GeoJSON data.
 L.geoJson(sanFranAirport, {
   // We turn each feature into a marker on the map.
